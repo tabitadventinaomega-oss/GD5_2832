@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background-color: #faf7f2;
   color: #2b2118;
 }
@@ -90,9 +90,15 @@ main {
   color: white;
 }
 
-.badge-lunas { background-color: #2ea44f; }
-.badge-dp { background-color: #c9840c; }
-.badge-belum { background-color: #cf222e; }
+.badge-lunas {
+  background-color: #2ea44f;
+}
+.badge-dp {
+  background-color: #c9840c;
+}
+.badge-belum {
+  background-color: #cf222e;
+}
 
 .error {
   color: #cf222e;
