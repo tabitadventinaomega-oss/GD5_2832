@@ -12,9 +12,9 @@ if (!isset($_SESSION["daftarItem"])) {
 $folderTujuan = "uploads/";
 $namaFileBukti = "";
 
-if (isset($_FILES["bukti"]) && $_FILES["bukti"]["name"] != "") {
-  $namaFileBukti = $folderTujuan . basename($_FILES["bukti"]["name"]);
-  move_uploaded_file($_FILES["bukti"]["tmp_name"], $namaFileBukti);
+if (isset($_FILES["buktiStruk"]) && $_FILES["buktiStruk"]["name"] != "") {
+  $namaFileBukti = $folderTujuan . basename($_FILES["buktiStruk"]["name"]);
+  move_uploaded_file($_FILES["buktiStruk"]["tmp_name"], $namaFileBukti);
 }
 
 $itemBaru = [
