@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start();//menambahkan session_start maaf pak sudah saya debugging bersama dengan issue 4
 if (!isset($_SESSION["host"])) {
   header("Location: login.php");
   exit;
