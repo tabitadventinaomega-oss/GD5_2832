@@ -62,11 +62,11 @@ if (!isset($_SESSION["host"])) {
   </main>
 
   <script>
-    function hitungPerOrang() {
+    function hitungSplit() {
       const harga = document.getElementById("hargaItem").value;
       const jumlahOrang = document.getElementById("jumlahOrangItem").value;
       const perOrang = harga / jumlahOrang;
-      document.getElementById("hasilSplit").innerText = "Per orang: Rp" + perOrang;
+      document.getElementById("hasilHitung").innerText = "Per orang: Rp" + perOrang;
     }
   </script>
 </body>
